@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ZAYVEN</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: white;
+            color: #111;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 50px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 5px;
+        }
+
+        nav a {
+            margin-left: 25px;
+            text-decoration: none;
+            color: #111;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 150px 20px;
+            background: #f4f4f4;
+        }
+
+        .hero h1 {
+            font-size: 65px;
+            margin: 0;
+            letter-spacing: 8px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 35px;
+            background: #111;
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+        }
+
+        .collection {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .collection h2 {
+            font-size: 35px;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .product {
+            width: 250px;
+            padding: 50px 20px;
+            background: #eee;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 30px;
+            text-align: center;
+            background: #111;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+<img src="imagenes/LogoZayven.png" alt="ZAYVEN">
+</div>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Colección</a>
+        <a href="#">Deportivo</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+</header>
+
+
+<section class="hero">
+
+    <h1>DEFINE YOUR STYLE.</h1>
+
+    <p>Ropa deportiva y moda moderna.</p>
+
+    <a class="button" href="#">VER COLECCIÓN</a>
+
+</section>
+
+
+<section class="collection">
+
+    <h2>NUEVA COLECCIÓN</h2>
+
+    <div class="products">
+
+        <div class="product">
+            <h3>Sudaderas</h3>
+            <p>Próximamente</p>
+        </div>
+
+        <div class="product">
+            <h3>Camisetas</h3>
+            <p>Próximamente</p>
+        </div>
+
+        <div class="product">
+            <h3>Deportivo</h3>
+            <p>Próximamente</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    © 2026 ZAYVEN — Beyond the limits.
+
+</footer>
+
+</body>
+</html>
